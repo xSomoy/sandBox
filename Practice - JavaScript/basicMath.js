@@ -1,0 +1,18 @@
+var sum = 10 + 10;
+console.log(sum);
+var sum = 100 - 55;
+console.log(sum);
+var sum = 100 * 55;
+console.log(sum);
+var sum = 100 / 55;
+console.log(sum);
+var sum = 100 % 55;
+console.log(sum);
+sum += 100;
+console.log(sum);
+sum -= 100;
+console.log(sum);
+sum *= 100;
+console.log(sum);
+sum /= 100;
+console.log(sum);
