@@ -1,0 +1,139 @@
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+#logo {
+  margin: 2em 0 4em 0;
+}
+#linkstop {
+  background: #234;
+  color: #fff;
+  margin-top: -10px;
+  padding: 2px;
+}
+#linkstop a {
+  color: #fff;
+}
+#score,#rating,#standards {
+  font-weight: bold;
+}
+div.exceed {
+  background-image: url(../images/img_status_exceed.png);
+}
+div.fail {
+  background-image: url(../images/img_status_fail.png);
+}
+div.pass {
+  background-image: url(../images/img_status_pass.png);
+}
+div.warn {
+  background-image: url(../images/img_status_warn.png);
+}
+#tablePwdScoring {
+  margin-bottom: 0 !important;
+}
+
+.progress {
+  margin-top: 6px;
+}
+
+#listLegend li {
+  list-style: none;
+  padding-bottom: 4px;
+  margin-left: 0;
+  padding-left: 0;
+}
+#listLegend {
+  margin-left: 0;
+  padding-left: 0;
+}
+div.fail,div.pass,div.exceed,div.warn {
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16px;
+}
+
+.exceed {
+  background: #F0F7FD !important;
+}
+
+.exceed:hover {
+  background: #D0E3F0 !important;
+}
+
+td.fail {
+  background: #C00 !important;
+}
+td.pass {
+  background: #093 !important;
+}
+div.boxMinus,div.boxPlus {
+}
+td.footnote {
+  background: #ddd;
+  font-size: 70%;
+}
+.bold {
+  font-weight: bold;
+}
+.clearNone {
+  clear: none;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.hide {
+  display: none;
+}
+.imgLegend {
+  clear: left !important;
+  float: left !important;
+  position: relative !important;
+  margin-bottom: -3px !important;
+  margin-right: 5px !important;
+}
+.inline {
+  display: inline;
+}
+.italic {
+  font-style: italic;
+}
+.noPad {
+  padding: 0;
+}
+.show {
+  display: inline !important;
+}
+.txtLg {
+  font-size: 125%;
+}
+.txtSmall {
+  font-size: 75%;
+}
+.txtCenter {
+  text-align: center;
+}
+.txtRight {
+  text-align: right;
+}
+.bgYellow {
+  background: #fff000;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: .9em;
+}
+div.xtend {
+  clear: both !important; 
+  line-height: 0; 
+  height: 0;
+}
+
