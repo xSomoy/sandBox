@@ -56,4 +56,5 @@ char faulCoder(decn){
         faulCoder(decn = bVal);
         printf("\n\n");
     }
+    getch();
 }
