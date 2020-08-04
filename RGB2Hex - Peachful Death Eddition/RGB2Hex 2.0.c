@@ -6,7 +6,7 @@
 // It should be just a fucking simple DECIMAL TO HEXADECIMAL CONVERSION!!!!
 // Back to sanity i putted 2 logic to make this a proper RGB to HEXA converter
 // 1. RGB Value Can not be more than 255
-// 2. Id RGB value is equal to 0 then HEX out put goes directly char '0'
+// 2. If RGB value is equal to 0 then HEX out put goes directly char '0'
 // NOW I CAN DIE PEACEFULLY
 
 #include <stdio.h>
