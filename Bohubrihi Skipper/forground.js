@@ -1,0 +1,1 @@
+document.getElementsByClassName("sfwd-mark-complete")[0].submit();

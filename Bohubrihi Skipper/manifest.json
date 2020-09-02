@@ -4,7 +4,7 @@
      "version": "1.0",
      "manifest_version": 2,
      "background": {
-         "scripts": ["bg.js"]
+         "scripts": ["background.js"]
      },
      "permissions": [
          "tabs",
@@ -12,6 +12,6 @@
      ],
      "browser_action": {
          "default_popup": "popup.html",
-         "default_icon": "bls.png"
+         "default_icon": "icon.png"
      }
  }
