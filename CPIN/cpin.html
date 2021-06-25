@@ -14,11 +14,19 @@
         let LV = 19986574;
         let NS = 74221381;
         let DNS = 69781651;
+        
+        function pinDecode () {
+            let code = document.getElementsByTagName("input");
+            console.log(code);
+            document.getElementById("VS").innerHTML = "test";
+//            document.getElementById("")
+        }
 
     </script>
-    <form action="#">
-        <input id="code" type="number" placeholder="Code">
-        <input type="submit" value="Decode">
+    
+    <form  >
+        <input type="number" id="code" placeholder="Code">
+        <input type="submit" value="Decode" onclick="pinDecode()">
     </form>
 
 
