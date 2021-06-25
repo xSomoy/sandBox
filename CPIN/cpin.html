@@ -16,10 +16,11 @@
         let DNS = 69781651;
 
         function pinDecode() {
-            var x = document.getElementById("passCode").value;
+            var key = document.getElementById("passCode").value;
+            vsPin = VS / key;
 
             
-                document.getElementById("VS").innerHTML = "VS var(VS/x) ";
+                document.getElementById("VS").innerHTML = vsPin;
             
             
 
