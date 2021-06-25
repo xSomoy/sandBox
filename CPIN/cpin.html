@@ -17,10 +17,21 @@
 
         function pinDecode() {
             var key = document.getElementById("passCode").value;
-            vsPin = VS / key;
-
             
-                document.getElementById("VS").innerHTML = vsPin;
+            vsPin = VS / key;
+            document.getElementById("VS").innerHTML = vsPin;
+
+            amPin = AM / key;
+            document.getElementById("VS").innerHTML = amPin;
+
+            lvPin = LV / key;
+            document.getElementById("VS").innerHTML = lvPin;
+
+            nsPin = NS / key;
+            document.getElementById("VS").innerHTML = nsPin;
+
+            dnsPin = DNS / key;
+            document.getElementById("VS").innerHTML = dnsPin;
             
             
 
@@ -39,11 +50,11 @@
     </form>
 
 
-    <ul>Pin For <span id="VS"></span></ul>
-    <ul>Pin For <span id="AM"></span></ul>
-    <ul>Pin For <span id="LV"></span></ul>
-    <ul>Pin For <span id="NS"></span></ul>
-    <ul>Pin For <span id="DNS"></span></ul>
+    <ul>VS PIN: <span id="VS"></span></ul>
+    <ul>AM PIN: <span id="AM"></span></ul>
+    <ul>LV PIN: <span id="LV"></span></ul>
+    <ul>NS PIN: <span id="NS"></span></ul>
+    <ul>DNS PIN: <span id="DNS"></span></ul>
 
 </body>
 
