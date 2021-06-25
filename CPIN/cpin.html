@@ -14,19 +14,19 @@
         let LV = 19986574;
         let NS = 74221381;
         let DNS = 69781651;
-        
-        function pinDecode () {
-            let code = document.getElementsByTagName("input");
-            console.log(code);
-            document.getElementById("VS").innerHTML = "test";
-//            document.getElementById("")
+
+        function pinDecode() {
+            var x = document.getElementById("passCode").value;
+//            let code = document.getElementById("passcode").value;
+            document.getElementById("VS").innerHTML = x;
+            //            document.getElementById("")
         }
 
     </script>
-    
-    <form  >
-        <input type="number" id="code" placeholder="Code">
-        <input type="submit" value="Decode" onclick="pinDecode()">
+
+    <form>
+        <input type="password" id="passCode" placeholder="Code">
+        <button onclick="pinDecode()">Decode</button>
     </form>
 
 
