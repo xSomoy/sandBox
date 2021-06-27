@@ -38,12 +38,32 @@
 
     <style>
         body {
-            /* background-color: black; */
+            background-color: black;
         }
 
         h3 {
             text-align: center;
             font-family:'Courier New', Courier, monospace;
+        }
+
+        input {
+            background-color: black;
+            color: chartreuse;
+            border: 2px dotted chartreuse;
+            padding: 10px;
+            margin-bottom: 10px;;
+        }
+
+        button {
+            background-color: black;
+            color: chartreuse;
+            padding: 10px;
+            border: 1px dotted chartreuse;
+            transition: all linear .5s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
         }
         
         #mainBox {
@@ -56,6 +76,7 @@
             font-size: 20px;
             color: chartreuse;
             font-family:'Courier New', Courier, monospace;
+            box-shadow: chartreuse 1px;
         }
 
         ul {
@@ -69,6 +90,7 @@
         }
         form {
             background-color: black;
+            text-align: center;;
         }
         
     </style>
