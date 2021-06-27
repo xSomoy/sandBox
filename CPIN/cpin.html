@@ -31,31 +31,25 @@
             document.getElementById("NS").innerHTML = nsPin;
 
             dnsPin = DNS / key;
-            document.getElementById("DNS").innerHTML = dnsPin;
-            
-            
-
-
-            //            let code = document.getElementById("passcode").value;
-            //            document.getElementById("")
-            
+            document.getElementById("DNS").innerHTML = dnsPin;    
         }
         
-
     </script>
 
+    <style>
+
+    </style>
+<div>
     <form>
         <input type="password" id="passCode" placeholder="Code">
         <button onclick="pinDecode(); return false;">Decode</button>
     </form>
 
-
     <ul>VS PIN: <span id="VS"></span></ul>
     <ul>AM PIN: <span id="AM"></span></ul>
-    <ul>LV PIN: <span id="LV"></span></ul>
     <ul>NS PIN: <span id="NS"></span></ul>
     <ul>DNS PIN: <span id="DNS"></span></ul>
-
+</div>
 </body>
 
 </html>
