@@ -2,6 +2,6 @@
 git add .
 msg=$(date -R)
 git commit -m "$msg"
-git push origin main
+git push origin master
 
 # Perfecto
