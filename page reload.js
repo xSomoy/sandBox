@@ -1,3 +1,3 @@
 while (true) {
-  location.reload()
+    setTimeout(location.reload(), 2000)
 }
