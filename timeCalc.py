@@ -1,5 +1,5 @@
 # this program display information about time 
-
+# Version 1.0.0
 import datetime , os , time
 x = datetime.datetime.now()
 hour = int(x.strftime("%H")) * 60
