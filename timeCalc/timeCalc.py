@@ -13,5 +13,6 @@ def timer():
 while True:
     timer()
     time.sleep(10)
-    os.system('clear')
+    # os.system('clear') # "Clear doesn't work"
+    # print(chr(27)+'[2j') # this also doesn't work
     
