@@ -1,5 +1,5 @@
 # this program display information about time 
-# Version 1.0.1
+# Version 1.1.0
 import datetime , os , time
 x = datetime.datetime.now()
 hour = int(x.strftime("%H")) * 60
@@ -13,5 +13,5 @@ def timer():
 while True:
     timer()
     time.sleep(10)
-    os.system('cls')
+    os.system('clear')
     
