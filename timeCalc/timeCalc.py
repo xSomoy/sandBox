@@ -15,5 +15,5 @@ while True:
     time.sleep(10)
     # os.system('clear') # "Clear doesn't work"
     # print(chr(27)+'[2j') # this also doesn't work
-    print('\033c') # this also doesn't work
+    # print('\033c') # this also doesn't work
     # print('\x1bc') #this also doens't work too
