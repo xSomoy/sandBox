@@ -8,7 +8,7 @@ def timer():
     print('Year:', x.strftime('%Y'))
     print('Day: ', x.strftime('%j'))
     print( 'Minutes Passed:', hour + minute)
-    print('Minute Remains:', 1440 - ( hour + minute))
+    print('Minutes Remains:', 1440 - ( hour + minute))
 
 while True:
     timer()
