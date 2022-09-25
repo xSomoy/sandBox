@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+        }
+        .countdown {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #00ff00;
+            font-size: 20vw;
+        }
+        .sec{
+            color: chartreuse;
+        }
+
+    </style>
+    <div id="timerLeft" class="countdown">
+        <div  class="sec">
+            <p id="sec"></p>
+        </div>
+    </div>
+    <script>
+        let currentDate = new Date();
+        let hh = currentDate.getHours();
+        let mm = currentDate.getMinutes();
+        let sec = currentDate.getSeconds();
+        let timeElasped = (hh*60) + mm;
+        let timerLeft = 5760 - timeElasped;
+        let date = currentDate.getDate();
+        
+    
+    
+        document.getElementById('timerLeft').innerHTML = timerLeft;
+        document.getElementById('sec').innerHTML  = sec;
+    
+    </script>
+    
+</body>
+</html>
