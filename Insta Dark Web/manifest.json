@@ -1,17 +1,17 @@
 {
     "manifest_version" : 2,
     "name" : "igDark",
-    "description" : "",
+    "description" : "Instagram Web Dark Version",
     "icons" : {
-        "16" : "",
-        "48" : "",
-        "128" : ""
+        "16" : "/icons/icon16.ico",
+        "48" : "/icons/icon48.ico",
+        "128" : "/icons/icon128.ico"
     },
     "page_action" : {
         "defualt_icon" : {
-            "16" : "",
-            "48" : "",
-            "128" : ""
+            "16" : "/icons/icon16.ico",
+            "48" : "/icons/icon48.ico",
+            "128" : "/icons/icon128.ico"
         }
     },
     "content_scripts" : [{}]
