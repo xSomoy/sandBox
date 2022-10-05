@@ -1,0 +1,19 @@
+{
+    "manifest_version" : 2,
+    "name" : "igDark",
+    "description" : "",
+    "icons" : {
+        "16" : "",
+        "48" : "",
+        "128" : ""
+    },
+    "page_action" : {
+        "defualt_icon" : {
+            "16" : "",
+            "48" : "",
+            "128" : ""
+        }
+    },
+    "content_scripts" : [{}]
+
+}
