@@ -1,19 +1,14 @@
 {
-    "manifest_version" : 2,
-    "name" : "igDark",
-    "description" : "Instagram Web Dark Version",
-    "icons" : {
-        "16" : "/icons/icon16.ico",
-        "48" : "/icons/icon48.ico",
-        "128" : "/icons/icon128.ico"
+    "manifest_version": 3,
+    "name": "igDark",
+    "description": "Instagram Web Dark Version",
+    "version": "1.0.0",
+    "icons": {
+        "16": "/icons/images/icon_16.png",
+        "48": "/icons/images/icon_48.png",
+        "128": "/icons/images/icon_128.png"
     },
-    "page_action" : {
-        "defualt_icon" : {
-            "16" : "/icons/icon16.ico",
-            "48" : "/icons/icon48.ico",
-            "128" : "/icons/icon128.ico"
-        }
-    },
-    "content_scripts" : [{}]
-
+    "background": {
+        "service_worker": "background.js"
+      }
 }
