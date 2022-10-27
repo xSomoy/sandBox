@@ -4,6 +4,6 @@ def cashOutCalc(b):
     commisionRate = 1.85
     totalCommision = (b * commisionRate) / 100
     returnCash = b - totalCommision
-    print(returnCash)
+    print('Return Cash: ' +  str(returnCash))
 cashOutCalc(a)
 
