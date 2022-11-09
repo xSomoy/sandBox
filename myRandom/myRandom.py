@@ -10,10 +10,8 @@ c = int(current_time.month) + b
 d = int(current_time.year) + c
 
 x = int((((a+b+c+d) - (a-b-c-d) * (a*b*c*d) / (a/b/c/d)) + 1 ) / 16)
-while True:
-    if len(str(x)) > y:
-        x = x / len(str(x))
-        print(x)
-    else:
-        break
+
+while len(str(x)) > y:
+    x = x / len(str(x))
+    print(x)
 print(x)
