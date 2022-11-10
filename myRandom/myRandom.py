@@ -14,3 +14,8 @@ x = int((((a+b+c+d) - (a-b-c-d) * (a*b*c*d) / (a/b/c/d)) + 1 ) / 16)
 while len(str(x)) > y:
     x = int(x / len(str(x)))
 print(x)
+
+# check for 0 lenght input error correction
+# wrap the whole thing as a function
+# if the function is not provided required argument then execute user input option
+# make the whole thing as a module or something so that it can be used in other programs
