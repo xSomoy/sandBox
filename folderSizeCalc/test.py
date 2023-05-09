@@ -18,4 +18,4 @@ print("Formatted date and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
 print('\n\n\n')
 
 print(now.date())
-print(str(now.time()))
+print(str(now.time())[:-7])
