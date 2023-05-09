@@ -1,2 +1,3 @@
 import datetime
-print(date.date)
+d = datetime.date()
+print(d)
