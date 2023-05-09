@@ -41,7 +41,7 @@ plt.title('Folder Sizes in {}'.format(imgSave))
 # Save the bar chart as a JPEG image file in the selected directory
 img_name = path + timeStamp
 print(img_name)
-image_path = os.path.join(imgSave,img_name)
+image_path = os.path.join(imgSave,str(img_name),".jpg")
 plt.savefig(image_path, dpi=300, bbox_inches='tight')
 
 # Display the image file
