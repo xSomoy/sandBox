@@ -13,9 +13,15 @@ print("Current date:", now.date())
 print("Current time:", now.time())
 
 # Display the date and time in a custom format
-print("Formatted date and time:", now.strftime("%Y-%m-%d %H:%M:%S"))
+
 
 print('\n\nDate and Time formating\n')
 
-print(now.date())
+print(str(now.date()).replace("-",""))
 print(str(now.time())[:-9].replace(":",""))
+print('\n\n\n\n')
+
+
+# date time solution 
+print('\n\nformating\n')
+print(now.strftime("%H%M%d%m%y"))

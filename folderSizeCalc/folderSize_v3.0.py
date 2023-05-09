@@ -3,6 +3,9 @@ import tkinter as tk
 from tkinter import filedialog
 import matplotlib.pyplot as plt
 from PIL import Image
+import datetime
+now = datetime.datetime.now()
+
 
 # Create a GUI file dialog box to select the directory
 root = tk.Tk()
