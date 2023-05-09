@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import datetime
 now = datetime.datetime.now()
+timeStamp = now.strftime("%H%M%d%m%y")
 
 
 # Create a GUI file dialog box to select the directory
@@ -38,7 +39,9 @@ plt.title('Folder Sizes in {}'.format(imgSave))
 
 
 # Save the bar chart as a JPEG image file in the selected directory
-image_path = os.path.join(imgSave,'folderSize.jpg')
+img_name = path + timeStamp
+print(img_name)
+image_path = os.path.join(imgSave,img_name)
 plt.savefig(image_path, dpi=300, bbox_inches='tight')
 
 # Display the image file
