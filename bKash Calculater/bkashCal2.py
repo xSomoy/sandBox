@@ -10,5 +10,14 @@ agent = 1.85
 atm = 1.49
 bank = 1.25
 
-copa = (a * 1000) / pAgent
-print(copa)
+copa = (a * pAgent) / 100
+print('Prio Agent: ' + str(copa))
+
+coa = (a * agent) / 100
+print('Agent: ' + str(copa))
+
+coatm = (a * atm) / 100
+print('ATM: ' + str(coatm))
+
+cobank = (a * bank) / 100
+print('Bank: ' + str(cobank))
