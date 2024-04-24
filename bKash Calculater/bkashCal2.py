@@ -1,6 +1,5 @@
-#bKash Calc V2.0
-#Mushohyqur Rahman Tanveer
-Tanveer
+# bKash Calc V2.0
+# Author  : Mushohyqur Rahman Tanveer
 
 #Taking input
 a = int(input('Amount: '))
