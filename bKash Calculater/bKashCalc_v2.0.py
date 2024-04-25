@@ -1,7 +1,7 @@
 # bKash Calc V2.0
 # Author  : Mushohyqur Rahman Tanveer
 
-#Taking input
+# Taking input
 a = int(input('Amount: '))
 
 # Charge in %
