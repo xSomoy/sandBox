@@ -14,7 +14,7 @@ copa = (a * pAgent) / 100
 print('Prio Agent: ' + str(copa))
 
 coa = (a * agent) / 100
-print('Agent: ' + str(copa))
+print('Agent: ' + str(coa))
 
 coatm = (a * atm) / 100
 print('ATM: ' + str(coatm))
