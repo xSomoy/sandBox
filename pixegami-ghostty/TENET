@@ -1,0 +1,24 @@
+palette = 0=#152535
+palette = 1=#FF3C3C
+palette = 2=#49FF6D
+palette = 3=#FFBC51
+palette = 4=#3DB6F9
+palette = 5=#8E44AD
+palette = 6=#16A085
+palette = 7=#BDC3C7
+palette = 8=#26384B
+palette = 9=#FF3C4C
+palette = 10=#93FF91
+palette = 11=#FFD057
+palette = 12=#5BD7FF
+palette = 13=#9B59B6
+palette = 14=#205C57
+palette = 15=#FFFFFF
+background =  #0C1C25
+foreground = #eeeeec
+cursor-color = #bbbbbb
+cursor-text = #86FFAF
+selection-background = #b5d5ff
+selection-foreground = #000000
+
+# (c) TENET(xSomoy)
