@@ -1,0 +1,8 @@
+A program with build in functionality like,
+  - reading / writing a file
+  - executing file
+  - downloading file
+
+Main feature it downloads its instraction from a remote location
+then executes the commands/instractions.
+Simply a Secrect Agent
